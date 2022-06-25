@@ -1,0 +1,1274 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<meta name="google-site-verification" content="ADQ2GXgFks66gaZAvhgOrZUucf3NsIBb7M1EL3YzmnY" />
+<title>Fantom (FTM) wallet guide | How to use the FTM wallet | Tutorial | Fantom</title>
+<style type="text/css">
+					.heateor_sss_button_instagram span.heateor_sss_svg,a.heateor_sss_instagram span.heateor_sss_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}
+						div.heateor_sss_horizontal_sharing a.heateor_sss_button_instagram span{background:#e6e6e6!important;}div.heateor_sss_standard_follow_icons_container a.heateor_sss_button_instagram span{background:#e6e6e6;}
+							div.heateor_sss_horizontal_sharing a.heateor_sss_button_instagram span:hover{background:#1969FF!important;}div.heateor_sss_standard_follow_icons_container a.heateor_sss_button_instagram span:hover{background:#1969FF;}
+								.heateor_sss_horizontal_sharing .heateor_sss_svg,.heateor_sss_standard_follow_icons_container .heateor_sss_svg{
+							background-color: #e6e6e6!important;
+				background: #e6e6e6!important;
+							color: #fff;
+						border-width: 1pxpx;
+			border-style: solid;
+			border-color: #e6e6e6;
+		}
+					div.heateor_sss_horizontal_sharing span.heateor_sss_svg svg:hover path:not(.heateor_sss_no_fill),div.heateor_sss_horizontal_sharing span.heateor_sss_svg svg:hover ellipse, div.heateor_sss_horizontal_sharing span.heateor_sss_svg svg:hover circle, div.heateor_sss_horizontal_sharing span.heateor_sss_svg svg:hover polygon{
+		        fill: #fff;
+		    }
+		    div.heateor_sss_horizontal_sharing span.heateor_sss_svg svg:hover path.heateor_sss_svg_stroke{
+		    	stroke: #fff;
+		    }
+				.heateor_sss_horizontal_sharing span.heateor_sss_svg:hover,.heateor_sss_standard_follow_icons_container span.heateor_sss_svg:hover{
+							background-color: #1969FF!important;
+				background: #1969FF!important;
+							color: #fff;
+						border-color: #1969FF;
+		}
+		.heateor_sss_vertical_sharing span.heateor_sss_svg,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg{
+							color: #fff;
+						border-width: 0px;
+			border-style: solid;
+			border-color: transparent;
+		}
+						.heateor_sss_vertical_sharing span.heateor_sss_svg:hover,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg:hover{
+						border-color: transparent;
+		}
+		@media screen and (max-width:783px) {.heateor_sss_vertical_sharing{display:none!important}}div.heateor_sss_mobile_footer{display:none;}@media screen and (max-width:783px){div.heateor_sss_bottom_sharing .heateorSssTCBackground{background-color:white}div.heateor_sss_bottom_sharing{width:100%!important;left:0!important;}div.heateor_sss_bottom_sharing a{width:33.333333333333% !important;}div.heateor_sss_bottom_sharing .heateor_sss_svg{width: 100% !important;}div.heateor_sss_bottom_sharing div.heateorSssTotalShareCount{font-size:1em!important;line-height:28px!important}div.heateor_sss_bottom_sharing div.heateorSssTotalShareText{font-size:.7em!important;line-height:0px!important}div.heateor_sss_mobile_footer{display:block;height:40px;}.heateor_sss_bottom_sharing{padding:0!important;display:block!important;width:auto!important;bottom:-2px!important;top: auto!important;}.heateor_sss_bottom_sharing .heateor_sss_square_count{line-height:inherit;}.heateor_sss_bottom_sharing .heateorSssSharingArrow{display:none;}.heateor_sss_bottom_sharing .heateorSssTCBackground{margin-right:1.1em!important}}		</style>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<title>Fantom (FTM) wallet guide | How to use the FTM wallet | Tutorial</title>
+ <meta name="description" content="Official guide to the FTM wallet | How to create a wallet? How to load an existing wallet? How to send &amp; receive FTM? How to stake FTM? How to unstake FTM?" />
+<link rel="canonical" href="https://fantom.foundation/how-to-use-fantom-wallet/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Fantom (FTM) wallet guide" />
+<meta property="og:description" content="How to use the official wallet to send, receive and stake FTM &amp; access DeFi" />
+<meta property="og:url" content="https://fantom.foundation/how-to-use-fantom-wallet/" />
+<meta property="og:site_name" content="Fantom" />
+<meta property="article:modified_time" content="2021-07-05T16:24:45+00:00" />
+<meta property="og:image" content="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/05/22190105/How_to_use_Fantom_wallet.png" />
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="1024" />
+<meta property="og:image:type" content="image/png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fantom (FTM) wallet guide" />
+<meta name="twitter:description" content="How to use the official wallet to send, receive and stake FTM &amp; access DeFi" />
+<meta name="twitter:site" content="@FantomFDN" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://3.24.74.233/#organization","name":"Fantom Foundation","url":"https://3.24.74.233/","sameAs":["https://www.linkedin.com/company/fantom-foundation/","https://twitter.com/FantomFDN"],"logo":{"@type":"ImageObject","@id":"https://3.24.74.233/#logo","inLanguage":"en-US","url":"https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/04/22185711/fantom-logo-blue.png","contentUrl":"https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/04/22185711/fantom-logo-blue.png","width":986,"height":256,"caption":"Fantom Foundation"},"image":{"@id":"https://3.24.74.233/#logo"}},{"@type":"WebSite","@id":"https://3.24.74.233/#website","url":"https://3.24.74.233/","name":"Fantom","description":"A fast and secure blockchain ecosystem","publisher":{"@id":"https://3.24.74.233/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://3.24.74.233/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://fantom.foundation/how-to-use-fantom-wallet/#primaryimage","inLanguage":"en-US","url":"https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/05/22190105/How_to_use_Fantom_wallet.png","contentUrl":"https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/05/22190105/How_to_use_Fantom_wallet.png","width":2048,"height":1024},{"@type":"WebPage","@id":"https://fantom.foundation/how-to-use-fantom-wallet/#webpage","url":"https://fantom.foundation/how-to-use-fantom-wallet/","name":"Fantom (FTM) wallet guide | How to use the FTM wallet | Tutorial","isPartOf":{"@id":"https://3.24.74.233/#website"},"primaryImageOfPage":{"@id":"https://fantom.foundation/how-to-use-fantom-wallet/#primaryimage"},"datePublished":"2020-04-09T10:48:59+00:00","dateModified":"2021-07-05T16:24:45+00:00","description":"Official guide to the FTM wallet | How to create a wallet? How to load an existing wallet? How to send & receive FTM? How to stake FTM? How to unstake FTM?","breadcrumb":{"@id":"https://fantom.foundation/how-to-use-fantom-wallet/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://fantom.foundation/how-to-use-fantom-wallet/"]}]},{"@type":"BreadcrumbList","@id":"https://fantom.foundation/how-to-use-fantom-wallet/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://fantom.foundation/"},{"@type":"ListItem","position":2,"name":"Fantom (FTM) wallet guide | How to use the FTM wallet | Tutorial"}]}]}</script>
+
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fantom.foundation\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://fantom.foundation/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://fantom.foundation/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='nbcpf-intlTelInput-style-css' href='https://fantom.foundation/wp-content/plugins/country-phone-field-contact-form-7/assets/css/intlTelInput.min.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='nbcpf-countryFlag-style-css' href='https://fantom.foundation/wp-content/plugins/country-phone-field-contact-form-7/assets/css/countrySelect.min.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='c4wp-public-css' href='https://fantom.foundation/wp-content/plugins/wp-captcha//assets/css/c4wp-public.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='owl.carousel.min-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/owl.carousel.min.css?ver=1.01' type='text/css' media='' />
+<link rel='stylesheet' id='owl.theme.default.min-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/owl.theme.default.min.css?ver=1.01' type='text/css' media='all' />
+<link rel='stylesheet' id='codemirrorcss-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/codemirror.css?ver=1.01' type='text/css' media='' />
+<link rel='stylesheet' id='materialcss-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/material.css?ver=1.01' type='text/css' media='' />
+<link rel='stylesheet' id='slickcss-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/slick.css?ver=1.01' type='text/css' media='' />
+<link rel='stylesheet' id='bootstrap-v4-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/bootstrap.min.css?ver=1.1' type='text/css' media='' />
+<link rel='stylesheet' id='customcss-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/style.css?ver=13.7.4.4' type='text/css' media='' />
+<link rel='stylesheet' id='responsivecss-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/responsive.css?ver=2.3.9.3' type='text/css' media='' />
+<link rel='stylesheet' id='fontcss-css' href='https://fantom.foundation/wp-content/themes/fantom-web/css/font.css?ver=1.01' type='text/css' media='' />
+<link rel='stylesheet' id='fontawesome-css' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='heateor_sss_frontend_css-css' href='https://fantom.foundation/wp-content/plugins/sassy-social-share/public/css/sassy-social-share-public.css?ver=3.3.40' type='text/css' media='all' />
+<script type='text/javascript' src='https://fantom.foundation/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/plugins/wp-captcha//assets/js/c4wp-public.js?ver=5.9.3' id='c4wp-public-js'></script>
+<script type='text/javascript' id='awscript-js-extra'>
+/* <![CDATA[ */
+var aw = {"ajaxurl":"https:\/\/fantom.foundation\/wp-admin\/admin-ajax.php","security":"14fc3f3c06"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/awscript.js?ver=5.9.3' id='awscript-js'></script>
+<link rel="https://api.w.org/" href="https://fantom.foundation/wp-json/" /><link rel="alternate" type="application/json" href="https://fantom.foundation/wp-json/wp/v2/pages/451" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fantom.foundation/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://fantom.foundation/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://fantom.foundation/?p=451' />
+<link rel="alternate" type="application/json+oembed" href="https://fantom.foundation/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffantom.foundation%2Fhow-to-use-fantom-wallet%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://fantom.foundation/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffantom.foundation%2Fhow-to-use-fantom-wallet%2F&#038;format=xml" />
+<style type="text/css">
+					@font-face {font-family: "ProximaNova";font-display: auto;font-fallback: ;font-weight: 400;src: url(/wp-content/uploads/2020/03/Mark-Simonson-Proxima-Nova-Alt-Bold-webfont.woff2) format('woff2'), url(/wp-content/uploads/2020/03/Mark-Simonson-Proxima-Nova-Alt-Bold-webfont.woff) format('woff'), url(/wp-content/uploads/2020/03/Mark-Simonson-Proxima-Nova-Alt-Bold-webfont.ttf) format('TrueType'), url(/wp-content/uploads/2020/03/Mark-Simonson-Proxima-Nova-Alt-Bold-webfont.eot) format('eot'), url(/wp-content/uploads/2020/03/Mark-Simonson-Proxima-Nova-Alt-Bold-webfont.svg) format('svg'), url(/wp-content/uploads/2020/03/FontsFree-Net-Proxima-Nova-Xbold.otf) format('OpenType');} @font-face {font-family: "ProximaNova-Extrabld";font-display: auto;font-fallback: ;font-weight: 500;src: url(/wp-content/uploads/2020/03/proximanova-extrabold.otf) format('OpenType');} @font-face {font-family: "WorkSans";font-display: auto;font-fallback: ;font-weight: 400;src: url(/wp-content/uploads/2020/03/WorkSans-Regular.ttf) format('TrueType');}				</style>
+
+<script type="text/javascript">
+				var _hsq = _hsq || [];
+				_hsq.push(["setContentId", "standard-page"]);
+			</script>
+
+<script>
+				(function() {
+					var hbspt = window.hbspt = window.hbspt || {};
+					hbspt.forms = hbspt.forms || {};
+					hbspt._wpFormsQueue = [];
+					hbspt.enqueueForm = function(formDef) {
+						if (hbspt.forms && hbspt.forms.create) {
+							hbspt.forms.create(formDef);
+						} else {
+							hbspt._wpFormsQueue.push(formDef);
+						}
+					};
+					if (!window.hbspt.forms.create) {
+						Object.defineProperty(window.hbspt.forms, 'create', {
+							configurable: true,
+							get: function() {
+								return hbspt._wpCreateForm;
+							},
+							set: function(value) {
+								hbspt._wpCreateForm = value;
+								while (hbspt._wpFormsQueue.length) {
+									var formDef = hbspt._wpFormsQueue.shift();
+									if (!document.currentScript) {
+										var formScriptId = 'leadin-forms-v2-js';
+										hubspot.utils.currentScript = document.getElementById(formScriptId);
+									}
+									hbspt._wpCreateForm.call(hbspt.forms, formDef);
+								}
+							},
+						});
+					}
+				})();
+			</script>
+<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://fantom.foundation/blog/feed/" /><link rel="icon" href="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/04/22185032/a_rgoWCA.png" sizes="32x32" />
+<link rel="icon" href="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/04/22185032/a_rgoWCA.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/04/22185032/a_rgoWCA.png" />
+<meta name="msapplication-TileImage" content="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/04/22185032/a_rgoWCA.png" />
+<style type="text/css" id="wp-custom-css">
+			/* Exchanges Page style */
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-bybit svg path {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-bybit svg path:nth-of-type(1) {
+    fill: #32325da6;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-okx svg path {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-gate-io svg path {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-bibox svg path {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-mexc path:nth-of-type(2) {
+    fill: #a7a7cc;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-mexc path:nth-of-type(1) {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-mexc path:nth-of-type(3) {
+    fill: #32325da6;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-hotbit svg path {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-probit svg path {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-tokocrypto path:nth-of-type(1) {
+    fill: #32325da6;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-tokocrypto path:nth-of-type(2) {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-simple-swap path:nth-of-type(1) {
+    fill: #32325da6;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-simple-swap path:nth-of-type(2) {
+    fill: #32325d;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-simple-swap path:nth-of-type(3) {
+    fill: #a7a7cc;
+}
+.where-to-buy-card-sec a.get-started-col-link:hover.where-to-buy-coinex path {
+    fill: #32325d;
+}
+@media screen and (max-width: 480px) {
+	.where-to-buy-card-sec a.get-started-col-link.where-to-buy-ftx svg {
+    width: 125px;
+}
+.where-to-buy-card-sec a.get-started-col-link.where-to-buy-bybit svg {
+    width: 130px;
+}
+.where-to-buy-card-sec a.get-started-col-link.where-to-buy-okx svg {
+    width: 122px;
+}
+.where-to-buy-card-sec a.get-started-col-link.where-to-buy-mexc svg {
+    width: 125px;
+}
+.where-to-buy-card-sec a.get-started-col-link.where-to-buy-webull .get-started-col-image svg {
+    width: 112px;
+}
+}
+.home-banner-buttons {
+    top: 0 !important;
+}
+/* wallet card new css */
+.wallet-card-wrapper .wallet-card-simple-hold-wallet-img {
+    width: 70px;
+}
+.wallet-card-wrapper .wallet-card-kristal-wallet-img {
+    margin-left: -15px;
+	  width: 138px;
+}		</style>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178028632-1"></script>
+<script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-178028632-1');
+        </script>
+</head>
+<body class="page-template page-template-sub-menu page-template-roadmap page-template-sub-menuroadmap-php page page-id-451">
+
+<header class="globalNav noDropdownTransition">
+<div class="header-sec">
+<div class="container">
+<ul role="navigation" class="navRoot">
+<li class="navSection logo">
+<a class="item-home colorize" href="/">
+<img class="banner" src="https://fantom.foundation/wp-content/themes/fantom-web/images/logo/fantom-logo-blue-without-background.svg" alt="Fantom Logo"> </a>
+</li>
+
+<li class="navSection primary">
+<a class="rootLink  item-products hasDropdown colorize" href= javascript:void(0); " data-dropdown="technology">
+Technology </a>
+<a class="rootLink  item-products hasDropdown colorize" href= javascript:void(0); " data-dropdown="tools">
+Tools </a>
+<a class="rootLink  item-products hasDropdown colorize" href= javascript:void(0); " data-dropdown="enterprise">
+Enterprise </a>
+<a class="rootLink  item-products hasDropdown colorize" href= javascript:void(0); " data-dropdown="ecosystem">
+Ecosystem </a>
+<a class="rootLink  item-products hasDropdown colorize" href= javascript:void(0); " data-dropdown="developers">
+Developers </a>
+</li>
+<li class="navSection secondary">
+<a class="rootLink item-support colorize fantom-wallte-btn" href="https://pwawallet.fantom.network/" target="_blank">Fantom DeFi
+<svg class="HoverArrow" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
+<g fill-rule="evenodd">
+ <path class="HoverArrow__linePath" d="M0 5h7"></path>
+<path class="HoverArrow__tipPath" d="M1 1l4 4-4 4"></path>
+</g>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+<div class="dropdownRoot">
+<div class="dropdownBackground" style="transform: translateX(452px) scaleX(0.707692) scaleY(1.1075);">
+<div class="alternateBackground" style="transform: translateY(255.53px);"></div>
+</div>
+<div class="dropdownArrow" style="transform: translateX(636px) rotate(45deg);"></div>
+<div class="dropdownContainer" style="transform: translateX(452px); width: 368px; height: 443px;">
+<div class="dropdownSection main-menu-no-1 left " id="dropdown-section-wrappers" data-dropdown="technology">
+<div class="dropdownContent">
+<div class="linkGroup products-link fold-wrapper ">
+<ul class="productsGroup">
+<li class="first-fold-group">
+<ul>
+<ul>
+<li>
+<a class="linkContainer item-radar" id="sec1" href="/intro-to-fantom/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042140/Intro-to-Fantom.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Intro to Fantom</h3>
+<p class="linkSub">Fantom is a fast, scalable and secure platform for digital assets.</p>
+</div>
+</a>
+</li>
+<li>
+<a class="linkContainer item-radar" id="sec2" href="/ftm-staking/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042830/Stake-on-Fantom.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Stake on Fantom</h3>
+ <p class="linkSub">Earn rewards by securing the network.</p>
+</div>
+</a>
+</li>
+<li>
+<a class="linkContainer item-radar" id="sec3" href="/ftm-token/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042834/Payments-Copy-5.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">FTM token</h3>
+<p class="linkSub">FTM is the primary token of the Fantom ecosystem.</p>
+</div>
+</a>
+</li>
+</ul>
+</ul>
+</li>
+<li class="sec-fold-group">
+<ul>
+<ul>
+<li id="sec-fold-group-li-wrapper1">
+<a class="linkContainer item-radar" href="/lachesis-consensus-algorithm/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044328/The-Consensus.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">The Consensus</h3>
+<p class="linkSub">Discover Lachesis, Fantom’s ultra-fast consensus protocol.</p>
+ </div>
+</a>
+</li>
+<li id="sec-fold-group-li-wrapper2">
+<a class="linkContainer item-radar" href="/what-is-fantom-opera/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044352/Opera-chain.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Opera Chain</h3>
+<p class="linkSub">The Fantom mainnet, with staking and EVM support.</p>
+</div>
+</a>
+</li>
+</ul>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="dropdownSection main-menu-no-2 left  active sec-fold-section
+                             " id="dropdown-section-wrappers" data-dropdown="tools">
+<div class="dropdownContent">
+<div class="linkGroup products-link fold-wrapper ">
+<ul class="productsGroup">
+<li class="first-fold-group">
+<ul>
+<h4>WALLETS</h4> <ul>
+<li>
+<a class="linkContainer item-radar" id="sec1" href="/wallets/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044424/FantomWallet.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Fantom Wallets</h3>
+<p class="linkSub">Store, send, receive, and stake FTM on desktop, mobile, and hardware wallets.</p>
+</div>
+</a>
+</li>
+</ul>
+<h4>EXPLORER</h4> <ul>
+<li>
+<a class="linkContainer item-radar" id="sec1" target="_blank" href="https://ftmscan.com/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21043137/FTMScan.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">FTMScan</h3>
+<p class="linkSub">A new Fantom explorer built by the Etherscan team.</p>
+</div>
+</a>
+</li>
+<li>
+<a class="linkContainer item-radar" id="sec2" target="_blank" href="https://explorer.fantom.network/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044452/Opera-Explorer.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Opera Explorer</h3>
+<p class="linkSub">Explore the network transactions, blocks, and nodes on Opera.</p>
+</div>
+</a>
+</li>
+</ul>
+</ul>
+</li>
+<li class="sec-fold-group">
+<ul>
+<h4>GUIDES</h4>
+<ul>
+<li id="sec-fold-group-li-wrapper1">
+<a class="linkContainer-wrapper" href="/how-to-use-fantom-wallet/">
+<p>How to use Fantom Wallet</p>
+</a>
+</li>
+<li id="sec-fold-group-li-wrapper2">
+<a class="linkContainer-wrapper" target="_blank" href="/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/">
+<p>How to set up Ledger Nano with Fantom</p>
+</a>
+</li>
+</ul>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="dropdownSection right enterprise-section" id="dropdown-section-wrapper" data-dropdown="enterprise">
+<div class="dropdownContent enterprise-content">
+<ul class="linkGroup linkList companyGroup">
+<ul>
+<li class="team-sec-wrapper">
+<a class="linkContainer item-radar" href="/enterprise/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/20143018/group-12.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Enterprise</h3>
+<p class="linkSub">Discover Fantom’s solutions for enterprise clients.</p>
+</div>
+</a>
+<div class="menu-items-sub-content-sec">
+<div class="menu-items-sub-content-linl-sec">
+</div>
+<div class="menu-items-sub-content-linl-sec">
+</div>
+</div>
+</li>
+</ul>
+<ul>
+<li class="team-sec-wrapper">
+<a class="linkContainer item-radar" href="/solutions/">
+ <img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/20143016/group-44-copy.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Solutions</h3>
+<p class="linkSub">Take a deep dive in real world use cases.</p>
+</div>
+</a>
+<div class="menu-items-sub-content-sec">
+<div class="menu-items-sub-content-linl-sec">
+</div>
+<div class="menu-items-sub-content-linl-sec">
+</div>
+</div>
+</li>
+</ul>
+</ul>
+</div>
+</div>
+<div class="dropdownSection main-menu-no-4 left " id="dropdown-section-wrappers" data-dropdown="ecosystem">
+<div class="dropdownContent">
+<div class="linkGroup products-link fold-wrapper ">
+<ul class="productsGroup">
+<li class="first-fold-group">
+<ul>
+<ul>
+<li>
+<a class="linkContainer item-radar" id="sec1" href="/about/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042828/Team-1.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">About us</h3>
+ <p class="linkSub">Meet the people behind Fantom.</p>
+</div>
+</a>
+</li>
+<li>
+<a class="linkContainer item-radar" id="sec2" href="/partners/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042340/partners.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Partners and integrations</h3>
+<p class="linkSub">Learn how we're creating a cross-chain ecosystem on our innovative platform.</p>
+</div>
+</a>
+</li>
+</ul>
+</ul>
+</li>
+<li class="sec-fold-group">
+<ul>
+<ul>
+<li id="sec-fold-group-li-wrapper1">
+<a class="linkContainer item-radar" target="_blank" href="/blog/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051240/Blog-1.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Blog</h3>
+<p class="linkSub">Learn about Fantom through our general and tech articles.</p>
+</div>
+</a>
+</li>
+<li id="sec-fold-group-li-wrapper2">
+<a class="linkContainer item-radar" href="/fantom-faq/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051255/FAQ-1.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">FAQ</h3>
+<p class="linkSub">Do you have questions? We have answers!</p>
+</div>
+</a>
+</li>
+<li id="sec-fold-group-li-wrapper3">
+<a class="linkContainer item-radar" href="/fantom-community/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051319/Community_Copy.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Community</h3>
+<p class="linkSub">Join our wonderful community and share ideas.</p>
+</div>
+</a>
+</li>
+ <li id="sec-fold-group-li-wrapper4">
+<a class="linkContainer item-radar" href="/careers/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051343/Careers.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Careers</h3>
+<p class="linkSub">Come work with us!</p>
+</div>
+</a>
+</li>
+</ul>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="dropdownSection right developers-section" id="dropdown-section-wrapper" data-dropdown="developers">
+<div class="dropdownContent developers-content">
+<ul class="linkGroup linkList companyGroup">
+<ul>
+<li class="team-sec-wrapper">
+<a class="linkContainer item-radar" target="_blank" href="https://docs.fantom.foundation/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044940/Documentation.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Documentation</h3>
+<p class="linkSub">Start building on Fantom</p>
+</div>
+</a>
+<div class="menu-items-sub-content-sec">
+<div class="menu-items-sub-content-linl-sec">
+<h4>GET STARTED</h4>
+<a href="https://docs.fantom.foundation/tutorials/deploy-a-smart-contract" target="_blank">Deploy a smart contract</a>
+<a href="https://docs.fantom.foundation/tutorials/create-a-fixed-cap-asset" target="_blank">Create a fixed-cap asset</a>
+<a href="https://docs.fantom.foundation/tutorials/create-a-local-test-network" target="_blank">Create a local test network</a>
+<a href="https://docs.fantom.foundation/api/getting-started" target="_blank">GraphQL API docs</a>
+</div>
+<div class="menu-items-sub-content-linl-sec">
+<h4>GUIDES</h4> <a href="https://docs.fantom.foundation/tutorials/set-up-metamask" target="_blank">Set up Metamask</a>
+<a href="https://docs.fantom.foundation/staking/how-to-run-a-validator-node" target="_blank">Run a validator node</a>
+</div>
+</div>
+</li>
+<li class="team-sec-wrapper">
+<a class="linkContainer item-radar" href="/fantom-research-papers/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/22034856/Technical-papers.svg" alt="Sub menu">  <div class="productLinkContent">
+<h3 class="linkTitle">Technical papers</h3>
+<p class="linkSub">Read our technical papers and latest research essays.</p>
+</div>
+</a>
+<div class="menu-items-sub-content-sec">
+<div class="menu-items-sub-content-linl-sec">
+</div>
+<div class="menu-items-sub-content-linl-sec">
+</div>
+</div>
+<div class="menu-footer-sec">
+<div class="row">
+<div class="col-sm-6">
+<a href="https://docs.fantom.foundation/api/covalent-indexing-and-querying-api" target="_blank">Covalent API</a>
+</div>
+<div class="col-sm-6">
+<a href="https://docs.fantom.foundation/tutorials/deploying-subgraph-with-the-graph" target="_blank">The Graph's Subgraphs</a>
+</div>
+<div class="col-sm-6">
+<a href="https://docs.fantom.foundation/tutorials/list-of-verified-contracts" target="_blank">Verified contracts </a>
+</div>
+<div class="col-sm-6">
+<a href="https://github.com/Fantom-foundation/Fantom_ClientJS_Utils" target="_blank">Frontend JS Utilities</a>
+</div>
+<div class="col-sm-6">
+<a href="https://github.com/Fantom-foundation/Fantom-DeFi" target="_blank">DeFi Smart Contracts</a>
+</div>
+<div class="col-sm-6">
+<a href="http://chat.fantom.network/" target="_blank">Developers’ chat</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div> </header>
+
+<header class="mobile-row-sec-wrapper">
+<div class="mobile-menu-sec">
+<div class="mobile-show-container">
+<div class="mobile-show">
+<div class="mobile-logo-icon-wrapper">
+<a class="item-home colorize" href="/">
+<img class="mobile-header-logo img-logo-fantom" src="https://fantom.foundation/wp-content/themes/fantom-web/images/logo/fantom-logo-blue-without-background.svg" alt="Fantom Logo"> </a>
+</div>
+<div class="menu-toggle">
+<img class="menu-image" src="https://fantom.foundation/wp-content/themes/fantom-web/images/menu_blue.svg" alt="menu">
+</div>
+<nav class="mobile-nav theme-menus d-flex align-items-center">
+<div class="inner-menu container">
+<div class="mobile-logo-icon-wrapper inner-logo">
+<a class="item-home colorize" href="/">
+<img src="https://fantom.foundation/wp-content/themes/fantom-web/images/Fantom Logo.svg" alt="Fantom Logo" />
+</a>
+<img src="https://fantom.foundation/wp-content/themes/fantom-web/images/Close.svg" class="close-image" alt="close" />
+</div>
+<div class="mobile-menu-section">
+<div class="mobile-menu-content">
+
+<ul id="accordion" class="accordion">
+<li>
+<div class="link"> <a class="menu-page-link" href="#">Technology</a><i class="fa fa-chevron-down"></i></div>
+<ul class="accordion-content technology-menu-sec">
+<li> <ul class="productsGroup">
+<li class="first-fold-group">
+<ul>
+ <li><a class="linkContainer item-payments" href="/intro-to-fantom/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042140/Intro-to-Fantom.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Intro to Fantom</h3>
+</div>
+</a></li>
+<li><a class="linkContainer item-payments" href="/ftm-staking/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042830/Stake-on-Fantom.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Stake on Fantom</h3>
+</div>
+</a></li>
+<li><a class="linkContainer item-payments" href="/ftm-token/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042834/Payments-Copy-5.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">FTM token</h3>
+</div>
+</a></li>
+<li><a class="linkContainer item-payments" href="/lachesis-consensus-algorithm/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044328/The-Consensus.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">The Consensus</h3>
+</div>
+</a></li>
+<li><a class="linkContainer item-payments" href="/what-is-fantom-opera/">
+ <img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044352/Opera-chain.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Opera Chain</h3>
+</div>
+</a></li>
+</ul>
+</li>
+</ul></li>
+</ul>
+</li>
+
+<li>
+<div class="link"> <a class="menu-page-link" href="#">Tools</a><i class="fa fa-chevron-down"></i></div>
+<ul class="accordion-content tools-menu-sec">
+<li><ul class="linkGroup linkList companyGroup fold-wrapper">
+<li class="first-fold-group">
+<h4>WALLETS</h4>
+<ul class="wallet-container">
+<li><a class="linkContainer item-radar" href="/wallets/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044424/FantomWallet.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Fantom Wallets</h3>
+</div></a>
+</li>
+</ul>
+<h4>EXPLORER</h4>
+<ul class="wallet-container">
+<li><a class="linkContainer item-radar" target="_blank" href="https://ftmscan.com/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21043137/FTMScan.svg" alt="Sub menu"> <div class="productLinkContent">
+ <h3 class="linkTitle">FTMScan</h3>
+</div></a>
+</li>
+<li><a class="linkContainer item-radar" target="_blank" href="https://explorer.fantom.network/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/11/10044452/Opera-Explorer.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Opera Explorer</h3>
+</div></a>
+</li>
+</ul>
+<h4>GUIDES</h4>
+<ul class="wallet-container">
+<li><a class="linkContainer item-radar" href="/how-to-use-fantom-wallet/">
+<div class="productLinkContent">
+<h3 class="linkTitle">How to use Fantom Wallet</h3>
+</div></a>
+</li>
+<li><a class="linkContainer item-radar" target="_blank" href="/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/">
+<div class="productLinkContent">
+<h3 class="linkTitle">How to set up Ledger Nano with Fantom</h3>
+</div></a>
+</li>
+</ul>
+</li>
+</ul></li>
+</ul>
+</li>
+
+ <li>
+<div class="link"> <a class="menu-page-link" href="#">Enterprise</a><i class="fa fa-chevron-down"></i></div>
+<ul class="accordion-content technology-menu-sec">
+<li> <ul class="productsGroup">
+<li class="first-fold-group">
+<ul>
+<li><a class="linkContainer item-payments" href="/enterprise/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/20143016/group-44-copy.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Enterprise</h3>
+</div>
+</a></li>
+<li><a class="linkContainer item-payments" href="/solutions/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/20143018/group-12.svg" alt="Sub menu">
+<div class="productLinkContent">
+<h3 class="linkTitle">Solutions</h3>
+</div>
+</a></li>
+</ul>
+</li>
+</ul></li>
+</ul>
+</li>
+
+<li>
+<div class="link"> <a class="menu-page-link" href="#">Ecosystem</a><i class="fa fa-chevron-down"></i></div>
+<ul class="accordion-content ecosystem-menu-sec">
+<li> <ul class="linkGroup linkList companyGroup ecosystem-group-wrapper">
+<li class="team-sec-wrapper"><a class="linkContainer item-radar" href="/about/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042828/Team-1.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">About us</h3>
+ </div></a>
+</li>
+<li class="team-sec-wrapper"><a class="linkContainer item-radar" href="/partners/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/21042340/partners.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Partners and integrations</h3>
+</div></a>
+</li>
+<li class="team-sec-wrapper"><a class="linkContainer item-radar" href="/blog/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051240/Blog-1.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Blog</h3>
+</div></a>
+</li>
+<li class="team-sec-wrapper"><a class="linkContainer item-radar" href="/fantom-faq/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051255/FAQ-1.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">FAQ</h3>
+</div></a>
+</li>
+<li class="team-sec-wrapper"><a class="linkContainer item-radar" href="/fantom-community/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051319/Community_Copy.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Community</h3>
+</div></a>
+</li>
+<li class="team-sec-wrapper"><a class="linkContainer item-radar" href="/careers/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17051343/Careers.svg" alt="Sub menu">  <div class="productLinkContent">
+<h3 class="linkTitle">Careers</h3>
+</div></a>
+</li>
+</ul> </li>
+</ul>
+</li>
+
+<li>
+<div class="link"> <a class="menu-page-link" href="#">Developers</a><i class="fa fa-chevron-down"></i></div>
+<ul class="accordion-content developers-menu-sec">
+<li><ul class="linkGroup linkList companyGroup ecosystem-group-wrapper">
+<li><a class="linkContainer item-radar" href="https://docs.fantom.foundation/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/12/17054218/Documentation.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Documentation</h3>
+</div></a>
+</li>
+<h4 class="developers-sub-menu-wrapper">GET STARTED</h4> <li><a id="submenu-menu-content1" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/tutorials/deploy-a-smart-contract">
+<div class="productLinkContent">
+<h3 class="linkTitle">Deploy a smart contract</h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content2" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/tutorials/create-a-fixed-cap-asset">
+<div class="productLinkContent">
+<h3 class="linkTitle">Create a fixed-cap asset</h3>
+</div></a>
+</li>
+ <li><a id="submenu-menu-content3" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/tutorials/create-a-local-test-network">
+<div class="productLinkContent">
+<h3 class="linkTitle">Create a local test network</h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content4" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/api/getting-started">
+<div class="productLinkContent">
+<h3 class="linkTitle">GraphQL API docs</h3>
+</div></a>
+</li>
+<h4 class="developers-sub-menu-wrapper">GUIDES</h4> <li><a id="submenu-menu-content1" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/tutorials/set-up-metamask">
+<div class="productLinkContent">
+<h3 class="linkTitle">Set up Metamask</h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content2" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/staking/how-to-run-a-validator-node">
+<div class="productLinkContent">
+<h3 class="linkTitle">Run a validator node</h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content3" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/api/covalent-indexing-and-querying-api">
+<div class="productLinkContent">
+<h3 class="linkTitle">Covalent API</h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content4" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/tutorials/list-of-verified-contracts">
+<div class="productLinkContent">
+<h3 class="linkTitle">Verified contracts </h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content5" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://github.com/Fantom-foundation/Fantom-DeFi">
+<div class="productLinkContent">
+<h3 class="linkTitle">DeFi Smart Contracts</h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content6" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://docs.fantom.foundation/tutorials/deploying-subgraph-with-the-graph">
+<div class="productLinkContent">
+<h3 class="linkTitle">The Graph's Subgraphs</h3>
+</div></a>
+</li>
+<li><a id="submenu-menu-content7" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="https://github.com/Fantom-foundation/Fantom_ClientJS_Utils">
+<div class="productLinkContent">
+<h3 class="linkTitle">Frontend JS Utilities</h3>
+ </div></a>
+</li>
+<li><a id="submenu-menu-content8" class="linkContainer item-radar developers-sub-menu-linkContainer submenu-menu-content" target="_blank" href="http://chat.fantom.network/">
+<div class="productLinkContent">
+<h3 class="linkTitle">Developers’ chat</h3>
+</div></a>
+</li>
+<li><a class="linkContainer item-radar" href="/fantom-research-papers/">
+<img class="sub-menu-img" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/01/22034856/Technical-papers.svg" alt="Sub menu"> <div class="productLinkContent">
+<h3 class="linkTitle">Technical papers</h3>
+</div></a>
+</li>
+</ul> </li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<main role="main" class="sub-menu-page">
+<div role="banner" class="banner-wrapper-section">
+<div class="container">
+<div class="sub-menu-banner-content roadmap-banner-content">
+<h1>How to use Fantom Wallet</h1>
+<p><a href="https://fantom.foundation/ftm-wallet/">Fantom (FTM) Wallet</a> is the native wallet for FTM Opera mainnet.</p>
+<p>With Fantom Wallet, you can:</p>
+<p><a href="#installing-wallet">1. Install the PWA wallet</a><br />
+<a class="link-wrapper" href="#creating-wallet">2. Create a wallet</a><br />
+<a class="link-wrapper" href="#loading-existing-wallet">3. Load an existing wallet</a><br />
+<a class="link-wrapper" href="#receiving-ftm">4. Send and receive FTM</a><br />
+<a class="link-wrapper" href="#staking">5. Stake, claim and unstake FTM</a><br />
+<a href="#address-book">6. Using your Address Book</a><br />
+<a href="#voting">7. Voting on Proposals</a></p>
+<div class='heateor_sss_sharing_container heateor_sss_vertical_sharing heateor_sss_bottom_sharing' style='width:44px;left: -10px;top: 100px;-webkit-box-shadow:none;box-shadow:none;' data-heateor-sss-href='https://fantom.foundation/how-to-use-fantom-wallet/'><div class="heateor_sss_sharing_ul"><a class="heateor_sss_MeWe" href="https://mewe.com/share?link=https%3A%2F%2Ffantom.foundation%2Fhow-to-use-fantom-wallet%2F" title="MeWe" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg" style="background-color:#007da1;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-4 -3 38 38"><g fill="#fff"><path d="M9.636 10.427a1.22 1.22 0 1 1-2.44 0 1.22 1.22 0 1 1 2.44 0zM15.574 10.431a1.22 1.22 0 0 1-2.438 0 1.22 1.22 0 1 1 2.438 0zM22.592 10.431a1.221 1.221 0 1 1-2.443 0 1.221 1.221 0 0 1 2.443 0zM29.605 10.431a1.221 1.221 0 1 1-2.442 0 1.221 1.221 0 0 1 2.442 0zM3.605 13.772c0-.471.374-.859.859-.859h.18c.374 0 .624.194.789.457l2.935 4.597 2.95-4.611c.18-.291.43-.443.774-.443h.18c.485 0 .859.387.859.859v8.113a.843.843 0 0 1-.859.845.857.857 0 0 1-.845-.845V16.07l-2.366 3.559c-.18.276-.402.443-.72.443-.304 0-.526-.167-.706-.443l-2.354-3.53V21.9c0 .471-.374.83-.845.83a.815.815 0 0 1-.83-.83v-8.128h-.001zM14.396 14.055a.9.9 0 0 1-.069-.333c0-.471.402-.83.872-.83.415 0 .735.263.845.624l2.23 6.66 2.187-6.632c.139-.402.428-.678.859-.678h.124c.428 0 .735.278.859.678l2.187 6.632 2.23-6.675c.126-.346.415-.609.83-.609.457 0 .845.361.845.817a.96.96 0 0 1-.083.346l-2.867 8.032c-.152.43-.471.706-.887.706h-.165c-.415 0-.721-.263-.872-.706l-2.161-6.328-2.16 6.328c-.152.443-.47.706-.887.706h-.165c-.415 0-.72-.263-.887-.706l-2.865-8.032z"></path></g></svg></span></a><a class="heateor_sss_button_mix" href="https://mix.com/mixit?url=https%3A%2F%2Ffantom.foundation%2Fhow-to-use-fantom-wallet%2F" title="Mix" rel="nofollow noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span class="heateor_sss_svg heateor_sss_s__default heateor_sss_s_mix" style="background-color:#ff8226;width:40px;height:40px;margin:0;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-7 -8 45 45"><g fill="#fff"><path opacity=".8" d="M27.87 4.125c-5.224 0-9.467 4.159-9.467 9.291v2.89c0-1.306 1.074-2.362 2.399-2.362s2.399 1.056 2.399 2.362v1.204c0 1.306 1.074 2.362 2.399 2.362s2.399-1.056 2.399-2.362V4.134c-.036-.009-.082-.009-.129-.009" /><path d="M4 4.125v12.94c2.566 0 4.668-1.973 4.807-4.465v-2.214c0-.065 0-.12.009-.176.093-1.213 1.13-2.177 2.39-2.177 1.325 0 2.399 1.056 2.399 2.362v9.226c0 1.306 1.074 2.353 2.399 2.353s2.399-1.056 2.399-2.353v-6.206c0-5.132 4.233-9.291 9.467-9.291H4z" /><path opacity=".8" d="M4 17.074v8.438c0 1.306 1.074 2.362 2.399 2.362s2.399-1.056 2.399-2.362V12.61C8.659 15.102 6.566 17.074 4 17.074" /></g></svg></span></a><a class="heateor_sss_more" title="More" rel="nofollow noopener" style="font-size: 32px!important;border:0;box-shadow:none;display:inline-block!important;font-size:16px;padding:0 4px;vertical-align: middle;display:inline;" href="https://fantom.foundation/how-to-use-fantom-wallet/" onclick="event.preventDefault()"><span class="heateor_sss_svg" style="background-color:#ee8e2d;width:40px;height:40px;margin:0;display:inline-block!important;opacity:1;float:left;font-size:32px!important;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;display:inline;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;box-sizing:content-box;" onclick="heateorSssMoreSharingPopup(this, 'https://fantom.foundation/how-to-use-fantom-wallet/', 'Fantom%20%28FTM%29%20wallet%20guide%20%7C%20How%20to%20use%20the%20FTM%20wallet%20%7C%20Tutorial', 'Fantom%20%28FTM%29%20wallet%20guide' )"><svg xmlns="http://www.w3.org/2000/svg" style="display:block;" width="100%" height="100%" viewBox="-4 -4 38 38"><circle cx="10" cy="15" r="3" fill="#fff"></circle><circle cx="20" cy="10" r="3" fill="#fff"></circle><circle cx="20" cy="20" r="3" fill="#fff"></circle><path d="M 10 15 L 20 10 m 0 10 L 10 15" class="heateor_sss_svg_stroke heateor_sss_no_fill" stroke-width="2" stroke="#fff"></path></svg></span></a></div><div class="heateorSssClear"></div></div>
+</div>
+</div>
+</div>
+<div class="pagenav-section-wrapper" id="container-wrapper">
+<div class="container">
+<div class="row">
+<div class="col-sm-3">
+<nav class="pagenav" id="pagenav">
+<a href="#installing-wallet" class=" active">Installing the Wallet</a>
+<a href="#creating-wallet" class=" ">Creating a Wallet</a>
+<a href="#loading-existing-wallet" class=" ">Restore an Existing Wallet</a>
+<a href="#receiving-ftm" class=" ">Receiving FTM</a>
+<a href="#sending-ftm" class=" ">Sending FTM</a>
+<a href="#staking" class=" ">Staking (Delegation)</a>
+<a href="#claiming-rewards" class=" ">Claiming Rewards</a>
+<a href="#increasing-delegation" class=" ">Increasing Delegation</a>
+<a href="#request-unstake" class=" ">Requesting to unstake</a>
+<a href="#address-book" class=" ">Using the Address Book</a>
+<a href="#voting" class=" ">Voting on Proposals</a>
+</nav>
+</div>
+<div class="col-sm-9">
+<div class="pagenav-section">
+<section class="pagenav-wrapper" id="installing-wallet"> <h2>Installing the Wallet</h2>
+<p><strong><span style="font-weight: 400;">The Fantom Wallet has been created as a Progressive Web App (PWA). These are easy to update across all platforms via a single codebase without requiring approval from third parties, perfect for consistently rolling out new features.</span><br />
+</strong></p>
+<h3><strong>Chrome (Windows/macOS/Linux)</strong></h3>
+<p><span style="font-weight: 400;"><strong>Step 1:</strong> Open the <a href="https://pwawallet.fantom.network/">Fantom Wallet</a> in Chrome</span></p>
+<p><span style="font-weight: 400;"><strong>Step 2:</strong> Click on the <img alt="" width="16" height="16" data-src="https://fantom.foundation/wp-content/uploads/2020/06/plus_sign-1.png" class="alignnone size-full wp-image-1570 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-1570" src="https://fantom.foundation/wp-content/uploads/2020/06/plus_sign-1.png" alt="" width="16" height="16" /></noscript> in the address bar</span></p>
+<p><img alt="" width="460" height="40" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191543/add_pwa_wallet_fantom-1.png 460w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191543/add_pwa_wallet_fantom-1-300x26.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/add_pwa_wallet_fantom-1.png" data-sizes="(max-width: 460px) 100vw, 460px" class="alignnone size-full wp-image-1572 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-1572" src="https://fantom.foundation/wp-content/uploads/2020/06/add_pwa_wallet_fantom-1.png" alt="" width="460" height="40" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191543/add_pwa_wallet_fantom-1.png 460w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191543/add_pwa_wallet_fantom-1-300x26.png 300w" sizes="(max-width: 460px) 100vw, 460px" /></noscript></p>
+<h3><strong>iOS</strong></h3>
+<p><span style="font-weight: 400;"><strong>Step 1:</strong> Open the <a href="https://pwawallet.fantom.network/">Fantom Wallet</a> in Safari</span></p>
+<p><span style="font-weight: 400;"><strong>Step 2:</strong> Click the Share button in Safari (at the bottom)</span></p>
+<p><span style="font-weight: 400;"><strong>Step 3:</strong> Click &#8220;Add to Home Screen&#8221;</span></p>
+<h3><strong>Android</strong></h3>
+<p><span style="font-weight: 400;"><strong>Step 1:</strong> Open the <a href="https://pwawallet.fantom.network/">Fantom Wallet</a> in Chrome</span></p>
+<p><span style="font-weight: 400;"><strong>Step 2:</strong> Click Settings (top right corner)</span></p>
+<p><span style="font-weight: 400;"><strong>Step 3:</strong> Click &#8220;Add to Home Screen&#8221;</span></p>
+</section>
+<section class="pagenav-wrapper" id="creating-wallet"> <h2>Creating a Wallet</h2>
+<p><strong>Step 1:</strong> Go to <a href="https://pwawallet.fantom.network/" target="_blank" rel="noopener">pwawallet.fantom.network</a>.</p>
+<p><strong>Step 2:</strong> Click on “Create Wallet”.</p>
+<p><img alt="" width="310" height="87" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191416/Create-Wallet.png 310w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191416/Create-Wallet-300x84.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Create-Wallet.png" data-sizes="(max-width: 310px) 100vw, 310px" class="alignnone size-full wp-image-1519 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-1519" src="https://fantom.foundation/wp-content/uploads/2020/06/Create-Wallet.png" alt="" width="310" height="87" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191416/Create-Wallet.png 310w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191416/Create-Wallet-300x84.png 300w" sizes="(max-width: 310px) 100vw, 310px" /></noscript></p>
+<p><strong>Step 3: </strong> Enter a strong password. The password has to be at least 8 characters, including one upper-case letter, a symbol, and a number.</p>
+<p><i>Store the password in a safe place! If you lose it, we cannot recover or reset it.</i></p>
+<p><strong>Step 4:</strong> Re-enter the password and click on the checkbox. Now you will be able to download the keystore file.<br />
+You can use the keystore file and password to access your wallet on other devices.</p>
+<p><i>A keystore file contains your private key encrypted with the password you chose above. Make sure to store it in a safe place.</i></p>
+<p><img alt="" width="722" height="551" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191413/Create-Password.png 722w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191413/Create-Password-300x229.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Create-Password.png" data-sizes="(max-width: 722px) 100vw, 722px" class="alignnone wp-image-1518 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1518 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Create-Password.png" alt="" width="722" height="551" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191413/Create-Password.png 722w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191413/Create-Password-300x229.png 300w" sizes="(max-width: 722px) 100vw, 722px" /></noscript></p>
+<p><strong>Step 5:</strong> Write down your 24-word mnemonic phrase and your private key, which you can find by clicking the text “View your private key”.</p>
+<p><i>Do not share your mnemonic or private key with others. Both will allow access to your wallet and your funds.</i></p>
+<p><strong>Step 6: </strong>Now verify your 24-word mnemonic phrase by entering it in the correct order.</p>
+<p><strong>Step 7: </strong>Click “Access your wallet”. You will now see your wallet with the public address displayed on the home screen. To access the wallet, simply click on the address.</p>
+<p><img alt="" width="996" height="110" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191409/Wallet-Home.png 996w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191409/Wallet-Home-300x33.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191409/Wallet-Home-768x85.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Wallet-Home.png" data-sizes="(max-width: 996px) 100vw, 996px" class="alignnone wp-image-1517 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1517 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Wallet-Home.png" alt="" width="996" height="110" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191409/Wallet-Home.png 996w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191409/Wallet-Home-300x33.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191409/Wallet-Home-768x85.png 768w" sizes="(max-width: 996px) 100vw, 996px" /></noscript></p>
+</section>
+<section class="pagenav-wrapper" id="loading-existing-wallet"> <h2>Restore an Existing Wallet</h2>
+<p><strong>Step 1</strong>: Click “Restore Wallet”, or, if this is your first wallet, select “Access Now”</p>
+<p><strong>Step 2</strong>: You can choose one of the three methods to access your wallet:</p>
+<ol>
+<li>Keystore</li>
+<li>Mnemonic phrase</li>
+<li>Private key</li>
+</ol>
+<p><img alt="" width="722" height="523" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191404/Restore-Wallet.png 722w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191404/Restore-Wallet-300x217.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Restore-Wallet.png" data-sizes="(max-width: 722px) 100vw, 722px" class="alignnone wp-image-1516 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1516 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Restore-Wallet.png" alt="" width="722" height="523" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191404/Restore-Wallet.png 722w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191404/Restore-Wallet-300x217.png 300w" sizes="(max-width: 722px) 100vw, 722px" /></noscript></p>
+<p>The only direct access to your wallet is the keystore file. The mnemonic phrase and private key methods should be used to recover your wallet. In fact, they will both generate a keystore file that you can use to access your wallet.</p>
+<h3>Accessing with keystore + password</h3>
+<p><strong>Step 1: </strong>Click on “Upload keystore file” and select a JSON file from your computer.</p>
+<p><strong>Step 2: </strong>Type in the password associated with that keystore file and click “Unlock wallet”.</p>
+<h3>Accessing with a mnemonic phrase</h3>
+<p><strong>Step 1:</strong> Enter your 12-word or 24-word mnemonic, separated by single spaces only (no commas or other separators).</p>
+<p><strong>Step 2:</strong> Click “Unlock wallet”.</p>
+<p><strong>Step 3:</strong> You can now create a password to be used for signing transactions. If you want to download the keystore file, please do so using the download button on the top bar within the wallet.</p>
+<h3>Accessing with a private key</h3>
+<p><strong>Step 1:</strong> Enter your private key. Fantom&#8217;s private keys start with 0x</p>
+<p><strong>Step 2:</strong> Click “Unlock wallet”.</p>
+<p><strong>Step 3:</strong> You can now create a password to be used for signing transactions. If you want to download the keystore file, please do so using the download button on the top bar within the wallet.</p>
+</section>
+<section class="pagenav-wrapper" id="receiving-ftm"> <h2>Receiving FTM</h2>
+<p>To receive FTM, click the &#8220;Receive&#8221; button on the menu bar.</p>
+<p><img alt="" width="1242" height="183" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar.png 1242w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar-300x44.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar-1024x151.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar-768x113.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Receive-bar.png" data-sizes="(max-width: 1242px) 100vw, 1242px" class="alignnone wp-image-1523 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1523 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Receive-bar.png" alt="" width="1242" height="183" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar.png 1242w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar-300x44.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar-1024x151.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191457/Receive-bar-768x113.png 768w" sizes="(max-width: 1242px) 100vw, 1242px" /></noscript></p>
+<p>The wallet will display your Opera address. Only send FTM mainnet tokens to this address.</p>
+<p>To receive FTM from Ethereum or Binance Chain, you can use <a href="https://multichain.xyz/">multichain.xyz</a>.</p>
+<p><span style="font-weight: 400;">You can bridge assets between Ethereum and Fantom and other networks using </span><a href="http://multichain.xyz/"><span style="font-weight: 400;">multichain.xyz</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">To use multichain.xyz, you need:</span></p>
+<ol>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">MetaMask</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">ETH to cover gas fees</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Assets you want to bridge. In this example, we’ll bridge FTM from Ethereum to Fantom.</span></li>
+</ol>
+<h3><b>Multichain.xyz step-by-step</b></h3>
+<p><span style="font-weight: 400;"><strong>Step 1:</strong> Make sure that your MetaMask wallet has some ETH and the assets you want to bridge cross-chain.</span></p>
+<p><img alt="" width="438" height="726" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200502/iv-1-MetaM-with-ERC20FTM.png 438w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200502/iv-1-MetaM-with-ERC20FTM-181x300.png 181w" data-src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200502/iv-1-MetaM-with-ERC20FTM.png" data-sizes="(max-width: 438px) 100vw, 438px" class="alignnone size-full wp-image-178240 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-178240" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200502/iv-1-MetaM-with-ERC20FTM.png" alt="" width="438" height="726" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200502/iv-1-MetaM-with-ERC20FTM.png 438w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200502/iv-1-MetaM-with-ERC20FTM-181x300.png 181w" sizes="(max-width: 438px) 100vw, 438px" /></noscript></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Step 2:</strong> Go to </span><a href="https://multichain.xyz"><span style="font-weight: 400;">https://multichain.xyz</span></a><span style="font-weight: 400;">, and connect MetaMask. Make sure you are connected to the correct MetaMask account that holds the assets you want to transfer (FTM in this example), as in the following image: </span></p>
+<p><img alt="" width="1777" height="966" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain.png 1777w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-300x163.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-1024x557.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-768x417.png 768w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-1536x835.png 1536w" data-src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain.png" data-sizes="(max-width: 1777px) 100vw, 1777px" class="alignnone size-full wp-image-178241 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-178241" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain.png" alt="" width="1777" height="966" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain.png 1777w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-300x163.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-1024x557.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-768x417.png 768w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200513/iv-2-Connect-Metamask-to-Multichain-1536x835.png 1536w" sizes="(max-width: 1777px) 100vw, 1777px" /></noscript></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Step 3:</strong> Click on the </span><b>From</b><span style="font-weight: 400;"> icon to select the token you want to transfer: </span></p>
+<p><img alt="" width="1202" height="780" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area.png 1202w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area-300x195.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area-1024x664.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area-768x498.png 768w" data-src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area.png" data-sizes="(max-width: 1202px) 100vw, 1202px" class="alignnone size-full wp-image-178242 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-178242" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area.png" alt="" width="1202" height="780" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area.png 1202w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area-300x195.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area-1024x664.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200542/iv-3-Click-on-the-From-area-768x498.png 768w" sizes="(max-width: 1202px) 100vw, 1202px" /></noscript></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Step 4:</strong> You’ll see the following:</span></p>
+<p><img alt="" width="576" height="834" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/06/05161715/iv-4-MultiChain-displays-tradeable-tokens.png 576w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/06/05161715/iv-4-MultiChain-displays-tradeable-tokens-207x300.png 207w" data-src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/06/05161715/iv-4-MultiChain-displays-tradeable-tokens.png" data-sizes="(max-width: 576px) 100vw, 576px" class="alignnone size-full wp-image-178540 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-178540" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/06/05161715/iv-4-MultiChain-displays-tradeable-tokens.png" alt="" width="576" height="834" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/06/05161715/iv-4-MultiChain-displays-tradeable-tokens.png 576w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/06/05161715/iv-4-MultiChain-displays-tradeable-tokens-207x300.png 207w" sizes="(max-width: 576px) 100vw, 576px" /></noscript></p>
+<p><span style="font-weight: 400;">Multichain displays the assets that you can bridge cross-chain. Toggling the wallet icon circled above will list all the tokens available for bridging on multichain.xyz</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Step 5:</strong> Now click on the FTM icon, and you’ll see:</span></p>
+<p><img alt="" width="618" height="900" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200551/iv-5-Specify-number-to-trade.png 618w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200551/iv-5-Specify-number-to-trade-206x300.png 206w" data-src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200551/iv-5-Specify-number-to-trade.png" data-sizes="(max-width: 618px) 100vw, 618px" class="alignnone size-full wp-image-178244 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-178244" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200551/iv-5-Specify-number-to-trade.png" alt="" width="618" height="900" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200551/iv-5-Specify-number-to-trade.png 618w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200551/iv-5-Specify-number-to-trade-206x300.png 206w" sizes="(max-width: 618px) 100vw, 618px" /></noscript></p>
+<p><span style="font-weight: 400;">By default, multichain selects Fantom Opera as the destination chain. Enter the amount of tokens you want to transfer in the “From” box or click on the total balance displayed at the upper right to send all.</span></p>
+<p><img alt="" width="630" height="918" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200559/iv-6-Click-on-balance-to-trade-all-FTM.png 630w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200559/iv-6-Click-on-balance-to-trade-all-FTM-206x300.png 206w" data-src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200559/iv-6-Click-on-balance-to-trade-all-FTM.png" data-sizes="(max-width: 630px) 100vw, 630px" class="alignnone size-full wp-image-178245 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-178245" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200559/iv-6-Click-on-balance-to-trade-all-FTM.png" alt="" width="630" height="918" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200559/iv-6-Click-on-balance-to-trade-all-FTM.png 630w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200559/iv-6-Click-on-balance-to-trade-all-FTM-206x300.png 206w" sizes="(max-width: 630px) 100vw, 630px" /></noscript></p>
+<p><span style="font-weight: 400;">Please note that when swapping Fantom from Ethereum to Fantom, multichain will charge a fee of 80FTM. Other assets, such as USDC, don’t have any additional fees at the moment.</span></p>
+<p><i><span style="font-weight: 400;">Why the fee? Multichain is a decentralized bridge, and fees are used to pay multichain node runners.</span></i></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Step 6:</strong> Click Transfer and wait; the Ethereum network may take a little while to process the transaction. Whenever prompted, click “confirm” to sign the transaction on MetaMask. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;"><strong>Step 7:</strong> Once the transaction has been confirmed, you can change the network to Fantom, and the bridged assets will show up:</span></p>
+<p><img alt="" width="1440" height="915" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer.png 1440w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer-300x191.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer-1024x651.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer-768x488.png 768w" data-src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer.png" data-sizes="(max-width: 1440px) 100vw, 1440px" class="alignnone size-full wp-image-178246 lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone size-full wp-image-178246" src="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer.png" alt="" width="1440" height="915" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer.png 1440w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer-300x191.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer-1024x651.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2021/05/31200602/iv-7-After-token-transfer-768x488.png 768w" sizes="(max-width: 1440px) 100vw, 1440px" /></noscript></p>
+<p><span style="font-weight: 400;">As expected when you click on MetaMask, the ERC-20 FTM token balance is 0. When you switch to the Fantom network (to change networks click at the top of the panel, in the box labeled Ethereum Mainnet), you see the balance you transferred (minus the 80 FTM fee). </span></p>
+<p><span style="font-weight: 400;">And there we have it: a successful cross-chain transfer!</span></p>
+</section>
+<section class="pagenav-wrapper" id="sending-ftm"> <h2>Sending FTM</h2>
+<p><strong>Step 1:</strong> Click on “Send” in the menu bar.</p>
+<p><img alt="" width="1240" height="191" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar-300x46.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar-1024x158.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar-768x118.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Send-bar.png" data-sizes="(max-width: 1240px) 100vw, 1240px" class="alignnone wp-image-1524 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1524 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Send-bar.png" alt="" width="1240" height="191" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar-300x46.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar-1024x158.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191506/Send-bar-768x118.png 768w" sizes="(max-width: 1240px) 100vw, 1240px" /></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 2:</strong> Choose the blockchain you&#8217;d like to send FTM to. Choose Fantom Opera for Opera FTM (within the Opera Network), Ethereum for FTM-ERC20, and Binance for FTM-BEP2.</p>
+<p><strong>Note:</strong> Opera to Ethereum and Opera to Binance transfers incur in a 50 FTM fee.<br />
+Opera to Opera transfers do not incur in any additional fee, besides the transaction cost.</p>
+<p><img alt="" width="1243" height="435" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main.png 1243w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main-300x105.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main-1024x358.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main-768x269.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Send-main.png" data-sizes="(max-width: 1243px) 100vw, 1243px" class="alignnone wp-image-1521 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1521 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Send-main.png" alt="" width="1243" height="435" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main.png 1243w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main-300x105.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main-1024x358.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191441/Send-main-768x269.png 768w" sizes="(max-width: 1243px) 100vw, 1243px" /></noscript></p>
+<p><strong>Step 3:</strong> Enter the amount and the address you are sending to.<br />
+You can also add a memo if you wish. This is an optional text about the transaction that only appears in your app and is not committed to the ledger.</p>
+<p><img alt="" width="994" height="431" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191340/Send-tx-details.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191340/Send-tx-details-300x130.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191340/Send-tx-details-768x333.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Send-tx-details.png" data-sizes="(max-width: 994px) 100vw, 994px" class="alignnone wp-image-1512 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1512 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Send-tx-details.png" alt="" width="994" height="431" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191340/Send-tx-details.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191340/Send-tx-details-300x130.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191340/Send-tx-details-768x333.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></noscript></p>
+<p><strong>Step 4:</strong> To sign the transaction, enter the password used to encrypt the keystore file and click &#8220;Send&#8221;.</p>
+<p><img alt="" width="990" height="497" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191334/Send-tx-confirm-password.png 990w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191334/Send-tx-confirm-password-300x151.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191334/Send-tx-confirm-password-768x386.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Send-tx-confirm-password.png" data-sizes="(max-width: 990px) 100vw, 990px" class="alignnone wp-image-1511 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1511 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Send-tx-confirm-password.png" alt="" width="990" height="497" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191334/Send-tx-confirm-password.png 990w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191334/Send-tx-confirm-password-300x151.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191334/Send-tx-confirm-password-768x386.png 768w" sizes="(max-width: 990px) 100vw, 990px" /></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 5:</strong> As soon as the transaction is confirmed by the network, you will see the following screen with the txid.</p>
+<p><img alt="" width="398" height="241" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191328/Tx-Success.png 398w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191328/Tx-Success-300x182.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Tx-Success.png" data-sizes="(max-width: 398px) 100vw, 398px" class="alignnone wp-image-1510 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1510 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Tx-Success.png" alt="" width="398" height="241" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191328/Tx-Success.png 398w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191328/Tx-Success-300x182.png 300w" sizes="(max-width: 398px) 100vw, 398px" /></noscript></p>
+</section>
+<section class="pagenav-wrapper" id="staking"> <h2>Staking (Delegation)</h2>
+<p><strong>Step 1:</strong> Click on “Staking” in the menu bar.</p>
+<p><img alt="" width="1240" height="184" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-300x45.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-1024x152.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-768x114.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-Bar.png" data-sizes="(max-width: 1240px) 100vw, 1240px" class="alignnone wp-image-1522 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img   alt="" width="1240" height="184" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-300x45.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-1024x152.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-768x114.png 768w"  data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-Bar.png" data-sizes="(max-width: 1240px) 100vw, 1240px" class="alignnone wp-image-1522 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1522 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-Bar.png" alt="" width="1240" height="184" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-300x45.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-1024x152.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-768x114.png 768w" sizes="(max-width: 1240px) 100vw, 1240px" /></noscript></noscript></p>
+<p><strong>Step 2:</strong> Click “Delegate”.</p>
+<p><img alt="" width="995" height="354" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191324/Staking-1.png 995w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191324/Staking-1-300x107.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191324/Staking-1-768x273.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-1.png" data-sizes="(max-width: 995px) 100vw, 995px" class="alignnone wp-image-1509 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1509 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-1.png" alt="" width="995" height="354" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191324/Staking-1.png 995w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191324/Staking-1-300x107.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191324/Staking-1-768x273.png 768w" sizes="(max-width: 995px) 100vw, 995px" /></noscript></p>
+<p><strong>Step 3:</strong> Enter the amount of FTM you want to stake. A minimum of 1 FTM is required to stake. Click the &#8220;Select a validator” dropdown menu.</p>
+<p><img alt="" width="992" height="342" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191316/Staking-2.png 992w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191316/Staking-2-300x103.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191316/Staking-2-768x265.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-2.png" data-sizes="(max-width: 992px) 100vw, 992px" class="alignnone wp-image-1508 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1508 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-2.png" alt="" width="992" height="342" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191316/Staking-2.png 992w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191316/Staking-2-300x103.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191316/Staking-2-768x265.png 768w" sizes="(max-width: 992px) 100vw, 992px" /></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 4:</strong> Select a validator from the list of active validators to stake to, and then click &#8220;Continue&#8221;.<br />
+You can click on a validator to show more information and<br />
+select them:</p>
+<p><img alt="" width="999" height="822" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191311/Staking-3.png 999w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191311/Staking-3-300x247.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191311/Staking-3-768x632.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-3.png" data-sizes="(max-width: 999px) 100vw, 999px" class="alignnone wp-image-1507 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1507 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-3.png" alt="" width="999" height="822" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191311/Staking-3.png 999w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191311/Staking-3-300x247.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191311/Staking-3-768x632.png 768w" sizes="(max-width: 999px) 100vw, 999px" /></noscript></p>
+<p><i>Make sure to do your due diligence regarding the validators. A validator cannot access your funds; however, if a validator acts maliciously, your staked tokens could be reduced.</i></p>
+<p>Validators will take a commission from delegators&#8217; rewards, currently set at 15%, in exchange for their services.</p>
+<p><strong>Step 5:</strong> You can now review the amount to stake and choice of validator, and change both the amount and the validator if you wish.</p>
+<p>When ready to delegate, enter your password and click “Delegate”.</p>
+<p><img alt="" width="994" height="441" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191303/Staking-4.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191303/Staking-4-300x133.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191303/Staking-4-768x341.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-4.png" data-sizes="(max-width: 994px) 100vw, 994px" class="alignnone wp-image-1506 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1506 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-4.png" alt="" width="994" height="441" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191303/Staking-4.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191303/Staking-4-300x133.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191303/Staking-4-768x341.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></noscript></p>
+<p>Delegation Successful!</p>
+<p><img alt="" width="400" height="243" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5.png 400w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5-300x182.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-5.png" data-sizes="(max-width: 400px) 100vw, 400px" class="alignnone wp-image-1505 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img   alt="" width="400" height="243" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5.png 400w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5-300x182.png 300w"  data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-5.png" data-sizes="(max-width: 400px) 100vw, 400px" class="alignnone wp-image-1505 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1505 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-5.png" alt="" width="400" height="243" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5.png 400w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5-300x182.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></noscript></noscript></p>
+</section>
+<section class="pagenav-wrapper" id="claiming-rewards"> <h2>Claiming Rewards</h2>
+<p><strong>Step 1:</strong> Click the &#8220;Claim Rewards&#8221; button from within the Staking tab.</p>
+<p><img alt="" width="991" height="431" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191230/Claim-Rewards.png 991w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191230/Claim-Rewards-300x130.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191230/Claim-Rewards-768x334.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Claim-Rewards.png" data-sizes="(max-width: 991px) 100vw, 991px" class="alignnone wp-image-1501 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1501 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Claim-Rewards.png" alt="" width="991" height="431" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191230/Claim-Rewards.png 991w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191230/Claim-Rewards-300x130.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191230/Claim-Rewards-768x334.png 768w" sizes="(max-width: 991px) 100vw, 991px" /></noscript></p>
+<p><strong>Step 2:</strong> Enter your password and click &#8220;Claim Rewards&#8221;. If you have more than 200 epochs of pending rewards, you will need to repeat the process until all rewards have been claimed.</p>
+<p><img alt="" width="995" height="385" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191223/Claim-Rewards-2.png 995w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191223/Claim-Rewards-2-300x116.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191223/Claim-Rewards-2-768x297.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Claim-Rewards-2.png" data-sizes="(max-width: 995px) 100vw, 995px" class="alignnone wp-image-1500 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1500 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Claim-Rewards-2.png" alt="" width="995" height="385" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191223/Claim-Rewards-2.png 995w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191223/Claim-Rewards-2-300x116.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191223/Claim-Rewards-2-768x297.png 768w" sizes="(max-width: 995px) 100vw, 995px" /></noscript></p>
+<p>Claiming Rewards Successful!</p>
+<p><img alt="" width="399" height="244" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191215/Claim-Rewards-3.png 399w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191215/Claim-Rewards-3-300x183.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Claim-Rewards-3.png" data-sizes="(max-width: 399px) 100vw, 399px" class="alignnone wp-image-1499 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1499 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Claim-Rewards-3.png" alt="" width="399" height="244" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191215/Claim-Rewards-3.png 399w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191215/Claim-Rewards-3-300x183.png 300w" sizes="(max-width: 399px) 100vw, 399px" /></noscript></p>
+<p>If you claimed rewards prior to the rewards unlock, you&#8217;ll need to Unstash them.</p>
+<p><strong>Step 1:</strong> Click the &#8220;Unstash&#8221; button from within the Staking tab.</p>
+<p><strong>Step 2:</strong> Enter your password and click &#8220;Confirm&#8221;.</p>
+</section>
+<section class="pagenav-wrapper" id="increasing-delegation"> <h2>Increasing Delegation</h2>
+<p><strong>Step 1:</strong> Click the &#8220;Increase Delegation&#8221; button from within the Staking tab. This will only be available if you&#8217;ve claimed all pending rewards, so please ensure you do so first.</p>
+<p><img alt="" width="993" height="352" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash.png 993w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-300x106.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-768x272.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-Dash.png" data-sizes="(max-width: 993px) 100vw, 993px" class="alignnone wp-image-1504 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img   alt="" width="993" height="352" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash.png 993w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-300x106.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-768x272.png 768w"  data-src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-Dash.png" data-sizes="(max-width: 993px) 100vw, 993px" class="alignnone wp-image-1504 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1504 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-Dash.png" alt="" width="993" height="352" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash.png 993w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-300x106.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-768x272.png 768w" sizes="(max-width: 993px) 100vw, 993px" /></noscript></noscript></p>
+<p><strong>Step 2:</strong> Enter the amount you&#8217;d like to increase your delegation by and click &#8220;Continue&#8221;.</p>
+<p><img alt="" width="994" height="324" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191242/Increase-Stake-1.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191242/Increase-Stake-1-300x98.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191242/Increase-Stake-1-768x250.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-1.png" data-sizes="(max-width: 994px) 100vw, 994px" class="alignnone wp-image-1503 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1503 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-1.png" alt="" width="994" height="324" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191242/Increase-Stake-1.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191242/Increase-Stake-1-300x98.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191242/Increase-Stake-1-768x250.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></noscript></p>
+<p><strong>Step 3:</strong> Enter your password and click &#8220;Delegate&#8221;.</p>
+<p><img alt="" width="992" height="439" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191236/Increase-Stake-2.png 992w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191236/Increase-Stake-2-300x133.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191236/Increase-Stake-2-768x340.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-2.png" data-sizes="(max-width: 992px) 100vw, 992px" class="alignnone wp-image-1502 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1502 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-2.png" alt="" width="992" height="439" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191236/Increase-Stake-2.png 992w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191236/Increase-Stake-2-300x133.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191236/Increase-Stake-2-768x340.png 768w" sizes="(max-width: 992px) 100vw, 992px" /></noscript></p>
+<p>Delegation Successful!</p>
+<p><img alt="" width="400" height="243" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5.png 400w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5-300x182.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-5.png" data-sizes="(max-width: 400px) 100vw, 400px" class="alignnone wp-image-1505 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img   alt="" width="400" height="243" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5.png 400w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5-300x182.png 300w"  data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-5.png" data-sizes="(max-width: 400px) 100vw, 400px" class="alignnone wp-image-1505 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1505 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-5.png" alt="" width="400" height="243" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5.png 400w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191252/Staking-5-300x182.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></noscript></noscript></p>
+</section>
+<section class="pagenav-wrapper" id="request-unstake"> <h2>Requesting to unstake</h2>
+<p><strong>Step 1:</strong> Click on “Staking” in the menu bar.</p>
+<p><img alt="" width="1240" height="184" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-300x45.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-1024x152.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-768x114.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-Bar.png" data-sizes="(max-width: 1240px) 100vw, 1240px" class="alignnone wp-image-1522 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img   alt="" width="1240" height="184" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-300x45.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-1024x152.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-768x114.png 768w"  data-src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-Bar.png" data-sizes="(max-width: 1240px) 100vw, 1240px" class="alignnone wp-image-1522 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1522 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Staking-Bar.png" alt="" width="1240" height="184" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar.png 1240w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-300x45.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-1024x152.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191448/Staking-Bar-768x114.png 768w" sizes="(max-width: 1240px) 100vw, 1240px" /></noscript></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 2:</strong> In the Staking tab, click &#8220;Undelegate&#8221;.</p>
+<p><img alt="" width="993" height="352" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash.png 993w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-300x106.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-768x272.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-Dash.png" data-sizes="(max-width: 993px) 100vw, 993px" class="alignnone wp-image-1504 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img   alt="" width="993" height="352" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash.png 993w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-300x106.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-768x272.png 768w"  data-src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-Dash.png" data-sizes="(max-width: 993px) 100vw, 993px" class="alignnone wp-image-1504 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1504 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Increase-Stake-Dash.png" alt="" width="993" height="352" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash.png 993w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-300x106.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191249/Increase-Stake-Dash-768x272.png 768w" sizes="(max-width: 993px) 100vw, 993px" /></noscript></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 3:</strong> Enter the amount of FTM you&#8217;d like to undelegate and click &#8220;Ok, undelegate&#8221;. This can be any number between 1 and the total amount you are currently staking.</p>
+<p><img alt="" width="995" height="323" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191211/Undelegation-1.png 995w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191211/Undelegation-1-300x97.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191211/Undelegation-1-768x249.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-1.png" data-sizes="(max-width: 995px) 100vw, 995px" class="alignnone wp-image-1498 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1498 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-1.png" alt="" width="995" height="323" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191211/Undelegation-1.png 995w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191211/Undelegation-1-300x97.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191211/Undelegation-1-768x249.png 768w" sizes="(max-width: 995px) 100vw, 995px" /></noscript></p>
+<p><strong>Step 3:</strong> Enter your password and click &#8220;Undelegate&#8221;.</p>
+<p><img alt="" width="992" height="436" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191205/Undelegation-2.png 992w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191205/Undelegation-2-300x132.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191205/Undelegation-2-768x338.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-2.png" data-sizes="(max-width: 992px) 100vw, 992px" class="alignnone wp-image-1497 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1497 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-2.png" alt="" width="992" height="436" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191205/Undelegation-2.png 992w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191205/Undelegation-2-300x132.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191205/Undelegation-2-768x338.png 768w" sizes="(max-width: 992px) 100vw, 992px" /></noscript></p>
+<p>Undelegation Successful</p>
+<p><img alt="" width="401" height="241" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191159/Undelegation-3.png 401w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191159/Undelegation-3-300x180.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-3.png" data-sizes="(max-width: 401px) 100vw, 401px" class="alignnone wp-image-1496 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1496 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-3.png" alt="" width="401" height="241" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191159/Undelegation-3.png 401w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191159/Undelegation-3-300x180.png 300w" sizes="(max-width: 401px) 100vw, 401px" /></noscript></p>
+<p><strong>Step 4: </strong>Check your pending undelegations and when they will be available for withdrawal (7 days from time of undelegation) in the Staking tab.</p>
+<p><img alt="" width="994" height="622" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191155/Undelegation-4.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191155/Undelegation-4-300x188.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191155/Undelegation-4-768x481.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-4.png" data-sizes="(max-width: 994px) 100vw, 994px" class="alignnone wp-image-1495 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1495 size-full" src="https://fantom.foundation/wp-content/uploads/2020/06/Undelegation-4.png" alt="" width="994" height="622" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191155/Undelegation-4.png 994w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191155/Undelegation-4-300x188.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/06/22191155/Undelegation-4-768x481.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></noscript></p>
+<p>Please note that if you unstake your tokens during the lockup period then your rewards will be burned.</p>
+</section>
+<section class="pagenav-wrapper" id="address-book"> <h2>Using the Address Book</h2>
+<p><strong>Step 1:</strong> Navigate to the &#8216;Home&#8217; tab and scroll down to the Contacts section. Click &#8216;+ New Contact&#8217;</p>
+<p><img alt="" width="1313" height="779" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1.png 1313w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1-300x178.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1-1024x608.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1-768x456.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/Contacts-1.png" data-sizes="(max-width: 1313px) 100vw, 1313px" class="alignnone wp-image-1658 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1658 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/Contacts-1.png" alt="" width="1313" height="779" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1.png 1313w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1-300x178.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1-1024x608.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183315/Contacts-1-768x456.png 768w" sizes="(max-width: 1313px) 100vw, 1313px" /></noscript></p>
+<p><strong>Step 2:</strong> Enter details of your Contact: the wallet address, a recognizable name, the blockchain that the address is associated with (Fantom Opera, Ethereum, Binance Chain), and the order you&#8217;d like it to appear in your address book.<br />
+<img alt="" width="750" height="693" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183303/contacts-2.png 750w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183303/contacts-2-300x277.png 300w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/contacts-2.png" data-sizes="(max-width: 750px) 100vw, 750px" class="alignnone wp-image-1659 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1659 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/contacts-2.png" alt="" width="750" height="693" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183303/contacts-2.png 750w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183303/contacts-2-300x277.png 300w" sizes="(max-width: 750px) 100vw, 750px" /></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 3: </strong>Click Save. To edit/remove a contact, just click the pencil icon to the right of the screen.</p>
+<p><img alt="" width="1319" height="839" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3.png 1319w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3-300x191.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3-1024x651.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3-768x489.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/Contacts-3.png" data-sizes="(max-width: 1319px) 100vw, 1319px" class="alignnone wp-image-1660 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1660 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/Contacts-3.png" alt="" width="1319" height="839" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3.png 1319w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3-300x191.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3-1024x651.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183300/Contacts-3-768x489.png 768w" sizes="(max-width: 1319px) 100vw, 1319px" /></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 4:</strong> To send FTM to a contact, head to the <a href="#sending-ftm">Send</a> tab and click &#8216;Select Address&#8217;.<br />
+<img alt="" width="1244" height="804" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4.png 1244w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4-300x194.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4-1024x662.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4-768x496.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/contacts-4.png" data-sizes="(max-width: 1244px) 100vw, 1244px" class="alignnone wp-image-1662 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1662 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/contacts-4.png" alt="" width="1244" height="804" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4.png 1244w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4-300x194.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4-1024x662.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183236/contacts-4-768x496.png 768w" sizes="(max-width: 1244px) 100vw, 1244px" /></noscript></p>
+<p><strong>Step 5:</strong> Select one of your contacts to auto-populate the address field. Note that your other Fantom Opera addresses loaded into the PWA Wallet will automatically be displayed, for easy sending between wallets.</p>
+<p><img alt="" width="1310" height="641" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5.png 1310w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5-300x147.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5-1024x501.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5-768x376.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/contacts-5.png" data-sizes="(max-width: 1310px) 100vw, 1310px" class="alignnone wp-image-1661 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1661 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/contacts-5.png" alt="" width="1310" height="641" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5.png 1310w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5-300x147.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5-1024x501.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183247/contacts-5-768x376.png 768w" sizes="(max-width: 1310px) 100vw, 1310px" /></noscript></p>
+<p>&nbsp;</p>
+<p><strong>Step 6:</strong> Continue with the transaction as usual (<a href="#sending-ftm">described here</a>).</p>
+</section>
+<section class="pagenav-wrapper" id="voting"> <h2>Voting on Proposals</h2>
+<p><strong>Step 1:</strong> Navigate to  the &#8216;Polls&#8217; tab and see past, current, and future polls in a list.<br />
+<img alt="" width="1278" height="680" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1.png 1278w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1-300x160.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1-1024x545.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1-768x409.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/Vote-1.png" data-sizes="(max-width: 1278px) 100vw, 1278px" class="alignnone wp-image-1669 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1669 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/Vote-1.png" alt="" width="1278" height="680" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1.png 1278w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1-300x160.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1-1024x545.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183212/Vote-1-768x409.png 768w" sizes="(max-width: 1278px) 100vw, 1278px" /></noscript></p>
+<p><strong>Step 2:</strong> Click on the left-hand link to be taken to an information page which explains the poll and its options.</p>
+<p><strong>Step 3:</strong> Click on the &#8216;Vote&#8217; button once ready to vote.</p>
+<p><strong>Step 4:</strong> Choose the option you&#8217;d like to vote for, and click &#8216;Vote&#8217;.<br />
+<img alt="" width="1272" height="578" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2.png 1272w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2-300x136.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2-1024x465.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2-768x349.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/Vote-2.png" data-sizes="(max-width: 1272px) 100vw, 1272px" class="alignnone wp-image-1670 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1670 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/Vote-2.png" alt="" width="1272" height="578" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2.png 1272w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2-300x136.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2-1024x465.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183203/Vote-2-768x349.png 768w" sizes="(max-width: 1272px) 100vw, 1272px" /></noscript></p>
+<p><strong>Step 5: </strong>Enter your password, and click &#8216;Vote&#8217; again to sign the transaction.<img alt="" width="1260" height="531" data-srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3.png 1260w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3-300x126.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3-1024x432.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3-768x324.png 768w" data-src="https://fantom.foundation/wp-content/uploads/2020/07/Vote-3.png" data-sizes="(max-width: 1260px) 100vw, 1260px" class="alignnone wp-image-1671 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img class="alignnone wp-image-1671 size-full" src="https://fantom.foundation/wp-content/uploads/2020/07/Vote-3.png" alt="" width="1260" height="531" srcset="https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3.png 1260w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3-300x126.png 300w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3-1024x432.png 1024w, https://fantomfoundation-prod-wp-website.s3.ap-southeast-2.amazonaws.com/wp-content/uploads/2020/07/22183154/Vote-3-768x324.png 768w" sizes="(max-width: 1260px) 100vw, 1260px" /></noscript></p>
+<p><strong>Step 6: </strong>When the poll has concluded, check back for the result. The winner for each poll will be displayed under the &#8216;Winner&#8217; column.</p>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="footer-section">
+<div class="container footer-container">
+<div class="row footer-row">
+<div class="col-sm-8">
+<div class="footer-col">
+<nav class="site-nav">
+<div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-1268" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1268"><a>Technology</a>
+<ul class="sub-menu">
+<li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-419"><a href="https://fantom.foundation/intro-to-fantom/">Intro to Fantom</a></li>
+<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a href="https://fantom.foundation/ftm-staking/">Stake on Fantom</a></li>
+<li id="menu-item-561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-561"><a href="https://fantom.foundation/ftm-token/">FTM token</a></li>
+<li id="menu-item-670" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-670"><a href="https://fantom.foundation/lachesis-consensus-algorithm/">The Consensus</a></li>
+<li id="menu-item-671" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-671"><a href="https://fantom.foundation/what-is-fantom-opera/">Opera Chain</a></li>
+</ul>
+</li>
+<li id="menu-item-1269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1269"><a>Tools</a>
+<ul class="sub-menu">
+<li id="menu-item-195723" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-195723"><a href="https://fantom.foundation/wallets/">Fantom Wallets</a></li>
+<li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a target="_blank" rel="noopener" href="https://explorer.fantom.network/">Opera Explorer</a></li>
+</ul>
+</li>
+<li id="menu-item-124429" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-124429"><a>Enterprise</a>
+<ul class="sub-menu">
+<li id="menu-item-994" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-994"><a href="https://fantom.foundation/enterprise/">Enterprise</a></li>
+<li id="menu-item-123998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123998"><a href="https://fantom.foundation/solutions/">Solutions</a></li>
+</ul>
+</li>
+<li id="menu-item-1270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1270"><a>Ecosystem</a>
+<ul class="sub-menu">
+<li id="menu-item-203034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203034"><a href="https://fantom.foundation/about/">About us</a></li>
+<li id="menu-item-68028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68028"><a href="https://fantom.foundation/partners/">Partners and integrations</a></li>
+<li id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a target="_blank" rel="noopener" href="https://fantom.foundation/blog/">Blog</a></li>
+<li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534"><a href="https://fantom.foundation/fantom-faq/">FAQ</a></li>
+<li id="menu-item-966" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-966"><a href="https://fantom.foundation/fantom-community/">Community</a></li>
+<li id="menu-item-1866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1866"><a href="https://fantom.foundation/careers/">Careers</a></li>
+<li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a target="_blank" rel="noopener" href="https://drive.google.com/open?id=1mJO7nXioZh9nVDt9GFZ5GXSGL6kv-_xr">Media kit</a></li>
+</ul>
+</li>
+<li id="menu-item-1271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1271"><a>Developers</a>
+<ul class="sub-menu">
+<li id="menu-item-87" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87"><a target="_blank" rel="noopener" href="https://docs.fantom.foundation/">Documentation</a></li>
+<li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="https://fantom.foundation/fantom-research-papers/">Technical papers</a></li>
+<li id="menu-item-177883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177883"><a target="_blank" rel="noopener" href="https://docs.fantom.foundation/api/covalent-indexing-and-querying-api">Covalent API</a></li>
+<li id="menu-item-177884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-177884"><a target="_blank" rel="noopener" href="https://docs.fantom.foundation/tutorials/list-of-verified-contracts">Verified contracts</a></li>
+<li id="menu-item-124438" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124438"><a target="_blank" rel="noopener" href="https://github.com/Fantom-foundation/Fantom-DeFi">DeFi Smart Contracts</a></li>
+<li id="menu-item-124437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124437"><a target="_blank" rel="noopener" href="https://docs.fantom.foundation/api/getting-started">GraphQL API</a></li>
+<li id="menu-item-124440" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124440"><a target="_blank" rel="noopener" href="https://github.com/Fantom-foundation/Fantom_ClientJS_Utils">Frontend JS utilities</a></li>
+<li id="menu-item-124442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-124442"><a target="_blank" rel="noopener" href="http://chat.fantom.network/">Developers’ chat</a></li>
+</ul>
+</li>
+</ul></div> </nav>
+<div class="copyright-wrapper social-icon-wrapper">
+<a class="social-icon-title">Social</a>
+<div class="widget_text widget-item"><div class="textwidget custom-html-widget"><ul class="social-icon-section">
+<li><a href="https://twitter.com/FantomFDN" target="_blank" class="social-icon" rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+<li><a href="http://chat.fantom.network/" target="_blank" class="social-icon" rel="noopener"><i class="fab fa-discord" aria-hidden="true"></i>Discord</a></li>
+<li><a href="https://t.me/Fantom_English" target="_blank" class="social-icon" rel="noopener"><i class="fab fa-telegram-plane" aria-hidden="true"></i>Telegram</a></li>
+<li><a href="https://t.me/fantomfoundation" target="_blank" class="social-icon" rel="noopener"><i class="fab fa-telegram-plane" aria-hidden="true"></i>Telegram ANN</a></li>
+<li><a href="https://www.reddit.com/r/FantomFoundation/" target="_blank" class="social-icon" rel="noopener"><i class="fab fa-reddit-alien" aria-hidden="true"></i>Reddit</a></li>
+</ul></div></div> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="copyright-wrapper-section" role="contentinfo">
+<div class="container">
+<div class="copyright-section">
+<div class="footer-col-logo-sec">
+<div class="logo">
+<a href="/">
+<img src="https://fantom.foundation/wp-content/themes/fantom-web/images/logo/fantom-logo-white.svg" alt="Fantom Logo">
+</a>
+</div>
+<div class="copyright-wrapper copyright-sec-wrapper">
+<p>© 2022 Fantom Foundation</p>
+</div>
+</div>
+<div class="copyright-wrapper page-link-section">
+<div class="widget_text widget-item"><div class="textwidget custom-html-widget"><ul class="copyright-page-link-wrapper">
+<li><a href="/cookie-policy/" class="copyright-page-link">Cookie Policy</a></li>
+<li><a href="https://app.termly.io/document/privacy-policy/761b18ba-cb88-4c57-af82-7c51466786dd" target="_blank" class="copyright-page-link" rel="noopener">Privacy Policy</a></li>
+<li><a href="https://app.termly.io/document/terms-and-conditions/64e6179a-3492-4c13-a7b9-a50ce3afd356" target="_blank" class="copyright-page-link" rel="noopener">Terms of Service</a></li>
+<li><a href="https://app.termly.io/document/cookie-policy/5fa2a161-e550-4caf-a19b-8f095859a573" target="_blank" class="copyright-page-link" rel="noopener">Cookie Policy</a></li>
+</ul></div></div> </div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script type='text/javascript' src='https://fantom.foundation/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/fantom.foundation\/wp-json\/","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.6' id='contact-form-7-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/plugins/country-phone-field-contact-form-7/assets/js/intlTelInput.min.js?ver=5.9.3' id='nbcpf-intlTelInput-script-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/plugins/country-phone-field-contact-form-7/assets/js/countrySelect.min.js?ver=5.9.3' id='nbcpf-countryFlag-script-js'></script>
+<script type='text/javascript' id='nbcpf-countryFlag-script-js-after'>
+		(function($) {
+			$(function() {
+				$(".wpcf7-countrytext").countrySelect({
+					
+				});
+				$(".wpcf7-phonetext").intlTelInput({
+					autoHideDialCode: false,
+					autoPlaceholder: "off",
+					nationalMode: false,
+					separateDialCode: false,
+					hiddenInput: "full_number",
+						
+				});
+
+				$(".wpcf7-phonetext").each(function () {
+					var hiddenInput = $(this).attr('name');
+					//console.log(hiddenInput);
+					$("input[name="+hiddenInput+"-country-code]").val($(this).val());
+				});
+				
+				$(".wpcf7-phonetext").on("countrychange", function() {
+					// do something with iti.getSelectedCountryData()
+					//console.log(this.value);
+					var hiddenInput = $(this).attr("name");
+					$("input[name="+hiddenInput+"-country-code]").val(this.value);
+					
+				});
+				
+			});
+		})(jQuery);
+</script>
+<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+/* <![CDATA[ */
+var leadin_wordpress = {"userRole":"visitor","pageType":"page","leadinPluginVersion":"8.10.25"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://js.hs-scripts.com/7302425.js?integration=WordPress&#038;ver=8.10.25' async defer id='hs-script-loader'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/TweenMax.js?ver=1.01' id='cc-tweenmax-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/owl.carousel.min.js?ver=1.1' id='owlcarouseljs-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/bootstrap.min.js?ver=1.1' id='bootstrap-min-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/header-animation.js?ver=1.1' id='header-animation-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/rangeslider.js?ver=1.1' id='rangeslider-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/rangeslider.min.js?ver=1.1' id='cc-rangeslider-min-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/velocity.min.js?ver=1.1' id='velocity-min-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/slick.min.js?ver=1.1' id='slick-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/typed.min.js?ver=1.1' id='typed-min-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/codemirror.js?ver=1.1' id='cc-codemirror-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/codemirror-solidity.js?ver=1.1' id='codemirror-solidity-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/gsap.min.js?ver=1.1' id='gsap-min-js-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/themes/fantom-web/js/main.js?ver=3.2.3' id='mainjs-js'></script>
+<script type='text/javascript' id='heateor_sss_sharing_js-js-before'>
+function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'https://fantom.foundation/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://fantom.foundation/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://fantom.foundation/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 1;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}
+</script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?ver=3.3.40' id='heateor_sss_sharing_js-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6Lc8gL0ZAAAAAHV-1zIZ8lI5OlpP_AY_MVMnyt7O&#038;ver=3.0' id='google-recaptcha-js'></script>
+<script type='text/javascript' id='wpcf7-recaptcha-js-extra'>
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6Lc8gL0ZAAAAAHV-1zIZ8lI5OlpP_AY_MVMnyt7O","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.5.6' id='wpcf7-recaptcha-js'></script>
+<script type='text/javascript' src='https://fantom.foundation/wp-content/plugins/wp-smush-pro/app/assets/js/smush-lazy-load.min.js?ver=3.9.8' id='smush-lazy-load-js'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7176e419fd0b4aec","token":"3a1c083b35394eb7b31de7cec2f75e4a","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
